@@ -1,0 +1,16 @@
+# Libraries used in the project
+import numpy as np # Numerical operations
+import pandas as pd # Data manipulation
+import matplotlib.pyplot as plt # Data visualization
+import seaborn as sns # Enhanced visualization
+from wordcloud import WordCloud # For word cloud generation
+from sklearn.datasets import fetch_20newsgroups # For loading the dataset
+from sklearn.model_selection import train_test_split # For splitting the data
+from sklearn.feature_extraction.text import TfidfVectorizer # For text vectorization
+from sklearn.linear_model import LogisticRegression # For model implementation
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score # For evaluation
+from sklearn.model_selection import GridSearchCV # For hyperparameter tuning
+import nltk # For text preprocessing (tokenization, stopwords, etc.)
+from nltk.corpus import stopwords # For stopwords
+from nltk.tokenize import word_tokenize # For tokenization
+from collections import Counter # For word frequency analysis
